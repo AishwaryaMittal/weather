@@ -8,5 +8,5 @@ export class CityDetails {
         this.cityName = cityName || '';
         this.stateCode = stateCode || '';
     }
-    }
+    //}
 }
