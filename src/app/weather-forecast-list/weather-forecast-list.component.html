@@ -1,0 +1,14 @@
+<p>
+  weather-forecast-list works!
+</p>
+
+<div>
+    <h2>
+        {{cityDetails.cityName}}
+        {{cityDetails.stateCode}}
+    </h2>
+</div>
+<app-weather-forecast 
+  *ngFor="let forecast of weatherForecasts"
+  [forecast]="forecast">
+</app-weather-forecast>

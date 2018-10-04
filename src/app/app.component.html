@@ -1,0 +1,13 @@
+
+<div>
+  Hello world!!
+  </div>
+
+<div>
+    <h2>{{ title }}</h2>
+</div>
+<div>
+    <input [(ngModel)]="searchText"/>
+    <button (click)="list.getWeather()">Get Weather </button>
+</div>
+<app-weather-forecast-list [searchText]="searchText" #list></app-weather-forecast-list>  
